@@ -1,12 +1,13 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/testcafe-es-modules/issues"
+    "url": "https://github.com/e2e-boilerplate/testcafe-es-modules-chai-expect/issues"
   },
   "dependencies": {
+    "chai": "4.2.0",
     "testcafe": "1.8.4"
   },
-  "description": "TestCafé end-to-end test automation boilerplate. Using ES Modules.",
+  "description": "TestCafé end-to-end test automation boilerplate. Using ES Modules, Chai and Expect.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -19,7 +20,7 @@
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/testcafe-es-modules#readme",
+  "homepage": "https://github.com/e2e-boilerplate/testcafe-es-modules-chai-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
@@ -27,9 +28,11 @@
   },
   "keywords": [
     "boilerplate",
+    "chai",
     "e2e",
     "e2e tests",
     "example",
+    "expect",
     "integration test",
     "testcafe"
   ],
@@ -39,10 +42,10 @@
       "prettier --write"
     ]
   },
-  "name": "testcafe-es-modules",
+  "name": "testcafe-es-modules-chai-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/testcafe-es-modules.git"
+    "url": "git+https://github.com/e2e-boilerplate/testcafe-es-modules-chai-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
