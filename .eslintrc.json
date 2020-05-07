@@ -1,0 +1,16 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:prettier/recommended",
+    "plugin:testcafe/recommended"
+  ],
+  "plugins": ["testcafe"],
+  "rules": {
+    "no-unused-expressions": 0
+  }
+}
