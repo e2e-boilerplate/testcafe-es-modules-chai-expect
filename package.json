@@ -27,15 +27,16 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
+    "es modules",
+    "expect",
+    "testcafe",
     "e2e",
     "e2e tests",
-    "es modules",
-    "example",
-    "expect",
+    "boilerplate",
     "integration test",
-    "testcafe"
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
