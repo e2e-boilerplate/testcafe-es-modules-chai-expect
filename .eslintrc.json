@@ -9,7 +9,9 @@
     "plugin:prettier/recommended",
     "plugin:testcafe/recommended"
   ],
-  "plugins": ["testcafe"],
+  "plugins": [
+    "testcafe"
+  ],
   "rules": {
     "no-unused-expressions": 0
   }
