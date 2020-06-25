@@ -23,4 +23,4 @@ jobs:
       - name: test
         uses: DevExpress/testcafe-action@latest
         with:
-          args: chrome spec/*.spec.js
+          args: 'chrome:headless -e spec/*.spec.js'
