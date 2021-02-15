@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "chai": "4.3.0",
-    "testcafe": "1.10.1"
+    "testcafe": "1.11.0"
   },
   "description": "TestCafé end-to-end test automation boilerplate. Using ES Modules, Chai and Expect.",
   "devDependencies": {
