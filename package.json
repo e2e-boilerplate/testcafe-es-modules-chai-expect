@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/testcafe-es-modules-chai-expect/issues"
   },
   "dependencies": {
-    "chai": "4.3.3",
+    "chai": "4.3.4",
     "testcafe": "1.12.0"
   },
   "description": "TestCafé end-to-end test automation boilerplate. Using ES Modules, Chai and Expect.",
